@@ -100,4 +100,100 @@
       მიხედავს)
     </footer>
   </body>
+  <style> 
+    body {
+  background-color: lavender;
+}
+
+.first {
+  display: inline-block;
+  vertical-align: top;
+}
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: montserrat;
+}
+nav {
+  background: #022f69;
+  height: 80px;
+  width: 100%;
+}
+label.logo {
+  color: #fff;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: #fff;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,
+a:hover {
+  background: #fff;
+  transition: 0.5s;
+  color: #022f69;
+}
+.checkbtn {
+  font-size: 30px;
+  color: #fff;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+@media (max-width: 672px) {
+  label.logo {
+    font-size: 30px;
+   width: 700px;
+   height: 100px ;
+ 
+   text-align: center;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+  nav {
+      height: 300px;
+     
+  }
+ 
+}
+@media (max-width: 472px) {
+  label.logo {
+    font-size: 30px;
+   width: 700px;
+   height: 100px ;
+ 
+   text-align: center;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+  nav {
+      height: 400px;
+  </style>
 </html>
